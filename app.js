@@ -26,7 +26,6 @@ app.use(express.static('public'))
 
 app.get('/connect', (req, res) => {
   if (!verify(req)) return res.json({message: 'secret is incorrect'})
-  console.log('req', req.headers.date, req.headers.authorization)
   res.json({version: '0.1.0'})
 })
 
