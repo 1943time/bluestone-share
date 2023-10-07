@@ -1,3 +1,4 @@
 node_modules
-public/doc
-public/lib
+public/doc/*
+public/lib/*.css
+public/lib/*.js
